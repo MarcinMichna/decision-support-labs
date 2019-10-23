@@ -35,7 +35,7 @@ def swapRows(my_array, n1, n2):
 
 
 ##### HRE ŚREDNIA GEOMETRYCZNA #####
-def HREgeo(M, Wk):
+def HREgeo(M, Wk, toSwap):
     n = len(M)
     k = len(Wk)
 
@@ -69,6 +69,9 @@ def HREgeo(M, Wk):
 
     # połączenie w pełen ranking
     res = np.concatenate((W, Wk), axis=None)
+    if len(toSwap) != 0:
+        for i in range(len(toSwap)):
+            res[toSwap[i][0]], res[toSwap[i][1]] = res[toSwap[i][1]], res[toSwap[i][0]]
 
     print("         Ranking końcowy: ", res)
 
@@ -76,15 +79,14 @@ def HREgeo(M, Wk):
 print("\nHRE Średnia geometryczna:")
 print("    Macierz A")
 WkA = [3, 1]
-HREgeo(A, WkA)
+HREgeo(A, WkA, [])
 print("    Macierz B")
 WkB = [2, 1 / 2, 1]
-HREgeo(B, WkB)
+HREgeo(B, WkB, [])
 print("    Macierz C")
 WkC = [2, 5]
 C = swapRows(C, 1, 4)
 C = swapRows(C, 3, 5)
 C = swapColumns(C, 1, 4)
 C = swapColumns(C, 3, 5)
-HREgeo(C, WkC)
-
+HREgeo(C, WkC, [[1, 4], [3, 5]])

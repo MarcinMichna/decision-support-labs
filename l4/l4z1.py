@@ -55,7 +55,7 @@ def swapRows(my_array, n1, n2):
 
 
 ##### HRE ŚREDNIA ARYTMETYCZNA #####
-def HREavg(M, Wk):
+def HREavg(M, Wk, toSwap):
     n = len(M)
     k = len(Wk)
     print("         Indeks Koczkodaja: ", koczkodaj(M))
@@ -91,20 +91,22 @@ def HREavg(M, Wk):
     # tworzenie rankingu
     W = np.matmul(np.linalg.inv(A1), b)
     res = np.concatenate((W, Wk), axis=None)
+
+    if len(toSwap) != 0:
+        for i in range(len(toSwap)):
+            res[toSwap[i][0]], res[toSwap[i][1]] = res[toSwap[i][1]], res[toSwap[i][0]]
+
     print("         Ranking końcowy: ", res)
-
-
-
 
 
 print("\nHRE Średnia arytmetyczna:")
 print("    Macierz A")
 WkA = [3, 1]
-HREavg(A, WkA)
+HREavg(A, WkA, [])
 
 print("    Macierz B")
 WkB = [2, 1 / 2, 1]
-HREavg(B, WkB)
+HREavg(B, WkB, [])
 
 print("    Macierz C")
 WkC = [2, 5]
@@ -112,5 +114,4 @@ C = swapRows(C, 1, 4)
 C = swapRows(C, 3, 5)
 C = swapColumns(C, 1, 4)
 C = swapColumns(C, 3, 5)
-HREavg(C, WkC)
-
+HREavg(C, WkC, [[1, 4], [3, 5]])

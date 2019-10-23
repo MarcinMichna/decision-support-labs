@@ -10,4 +10,4 @@ HRE Średnia arytmetyczna:
     Macierz C
          Indeks Koczkodaja:  0.11572472126105338
          Maksymalna wartość indeksu Koczkodaja:  0.26754446796632414
-         Ranking końcowy:  [ 8.20540492  2.05217026 10.13524961  3.01702866  2.          5.        ]
+         Ranking końcowy:  [ 8.20540492  2.         10.13524961  5.          2.05217026  3.01702866]
