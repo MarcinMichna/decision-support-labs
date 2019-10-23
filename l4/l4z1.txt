@@ -1,0 +1,13 @@
+HRE Średnia arytmetyczna:
+    Macierz A
+         Indeks Koczkodaja:  0.20000000000000007
+         Maksymalna wartość indeksu Koczkodaja:  0.26754446796632414
+         Ranking końcowy:  [5.3832862  8.41331945 2.7447984  2.32718182 3.         1.        ]
+    Macierz B
+         Indeks Koczkodaja:  0.9464285714285714
+         Maksymalna wartość indeksu Koczkodaja:  0.45278640450004204
+         Ranking końcowy:  [2.19106271 2.13823058 1.39445155 2.         0.5        1.        ]
+    Macierz C
+         Indeks Koczkodaja:  0.11572472126105338
+         Maksymalna wartość indeksu Koczkodaja:  0.26754446796632414
+         Ranking końcowy:  [ 8.20540492  2.05217026 10.13524961  3.01702866  2.          5.        ]

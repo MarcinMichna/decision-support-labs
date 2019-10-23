@@ -1,0 +1,7 @@
+HRE Średnia geometryczna:
+    Macierz A
+         Ranking końcowy:  [5.35311934 8.36693726 2.7275953  2.31136976 3.         1.        ]
+    Macierz B
+         Ranking końcowy:  [1.00002314 0.92779574 0.76996298 2.         0.5        1.        ]
+    Macierz C
+         Ranking końcowy:  [ 8.18670835  2.04604087 10.11347353  3.00786814  2.          5.        ]
