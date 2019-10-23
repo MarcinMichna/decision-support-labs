@@ -1,0 +1,2 @@
+ranking z poprzednich zajęć: 0.34634713 0.36914035 0.28451251
+ranking z tego zadania: 0.34715539 0.36790115 0.28494346
