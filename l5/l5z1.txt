@@ -1,0 +1,19 @@
+A - uogólniona Turniejowa:  True
+B - uogólniona Turniejowa:  True
+C - uogólniona Turniejowa:  True
+D - uogólniona Turniejowa:  False
+E - uogólniona Turniejowa:  True
+F - uogólniona Turniejowa:  True
+
+A - dopuszcza remisy:  False
+B - dopuszcza remisy:  True
+C - dopuszcza remisy:  True
+E - dopuszcza remisy:  True
+F - dopuszcza remisy:  False
+
+A - Kendal:  1.0
+F - Kendal:  0.0
+
+B - uogólniony Kendall:  0.5454545454545454
+C - uogólniony Kendall:  0.42307692307692313
+E - uogólniony Kendall:  0.0
