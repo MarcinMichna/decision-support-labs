@@ -23,3 +23,4 @@ if aChoice == bChoice:
     print("Równowaga Nasha przy wyborze strategii", aChoices.index(aChoice) + 1)
 else:
     print("Nie ma równowagi Nasha")
+
