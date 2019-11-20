@@ -1,0 +1,2 @@
+X result: [1.273 2.909]
+Final rsult: 21.82
