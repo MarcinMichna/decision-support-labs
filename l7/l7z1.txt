@@ -1,2 +1,2 @@
 X result: [10.  0. 20.]
-Final rsult: 80.00000
+Final result: 80.00000

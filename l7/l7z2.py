@@ -15,4 +15,4 @@ finalRes = 8*res[0] + 4*res[1]
 np.set_printoptions(precision=3)
 np.set_printoptions(suppress=True)
 print("X result:", res)
-print("Final rsult: {0:5.2f}".format(finalRes))
+print("Final result: {0:5.2f}".format(finalRes))

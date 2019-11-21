@@ -1,0 +1,24 @@
+#### PLAYER A ####
+Dodatkowe dane:
+X result: [0.15 0.2 ]
+x1 + x2 = 1/v =  0.35
+
+Wyniki:
+Wartość gry:  0.86
+Strategia:
+A1: 42.86%
+A2: 57.14%
+
+
+
+#### PLAYER B ####
+Dodatkowe dane:
+X result: [0.1  0.   0.25]
+x1 + x2 + x3 = 1/v =  0.35
+
+Wyniki:
+Wartość gry:  0.86
+Strategia:
+B1: 28.57%
+B2: 0.00%
+B3: 71.43%

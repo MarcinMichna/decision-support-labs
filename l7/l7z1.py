@@ -17,5 +17,5 @@ finalRes = 2*res[0] + res[1] + 3*res[2]
 np.set_printoptions(precision=3)
 np.set_printoptions(suppress=True)
 print("X result:", res)
-print("Final rsult: {0:5.5f}".format(finalRes))
+print("Final result: {0:5.5f}".format(finalRes))
 
