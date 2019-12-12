@@ -8,7 +8,7 @@ import copy
 
 
 
-#### WIEM co źle, nie chce mi się poprawiać, za dużo roboty #####
+#### Nie działa, sprawdza tylko który z dzieci ma wyższy wynik funkcji i na tej podstawie wybiera dalszą drogę #####
 
 
 
@@ -34,16 +34,16 @@ b21 = []
 b22 = []
 
 while cont:
-    print("\n\nfor")
+    # print("\n\nfor")
     cont = False
     change1 = False
     change2 = False
     res = scipy.linprog(c, A, b).x
-    print(A)
-    print(b)
+    # print(A)
+    # print(b)
     print("X result:", res)
+    time.sleep(1)
     if abs(res[0] - round(res[0])) > 0.00001:
-        time.sleep(2.4)
         x11 = [-1, 0]
         x12 = [1, 0]
         b11 = -1 * (math.floor(res[0]) + 1)
@@ -89,20 +89,20 @@ while cont:
             b1.append(b21)
             b2.append(b22)
 
-        print("\na1", A1)
-        print("a2", A2)
-        print("b1", b1)
-        print("b2", b2)
+        # print("\na1", A1)
+        # print("a2", A2)
+        # print("b1", b1)
+        # print("b2", b2)
 
         res1 = scipy.linprog(c, A1, b1).x
         res2 = scipy.linprog(c, A2, b2).x
         finalRes1 = 23 * res1[0] + 17 * res1[1]
         finalRes2 = 23 * res2[0] + 17 * res2[1]
 
-        print("res1", res1)
-        print("res2", res2)
-        print("final1", finalRes1)
-        print("final2", finalRes2)
+        # print("res1", res1)
+        # print("res2", res2)
+        # print("final1", finalRes1)
+        # print("final2", finalRes2)
         if finalRes1 > finalRes2:
             A = A1
             b = b1
@@ -111,8 +111,8 @@ while cont:
             b = b2
 
 
-        print("\na", A)
-        print("b", b)
+        # print("\na", A)
+        #         # print("b", b)
 
         cont = True
 
