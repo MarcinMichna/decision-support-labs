@@ -1,3 +1,5 @@
-# boikwd
+# Badania Operacyjne i Komputerowe Wspomaganie Decyzji
 
-Zadania z laboratoriów Badań Operacyjnych i komputerowego wspomagania decyzji
+Rok: 3
+
+Semestr: V
